@@ -1,0 +1,22 @@
+# MinIO data directory (bind-mounted by Minio/docker-compose.yml)
+Minio/minio/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
